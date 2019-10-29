@@ -1,6 +1,8 @@
 # Web-Challenge
 ## Latitude Analysis Dashboard with Attitude
 
+Web Visualization Dashboard (Latitude) site provides the source data and visualizations created as part of the WeatherPy - latitude analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+
 The website contains of 7 pages total, including:
 
 * A [landing page](#landing-page) containing:
@@ -12,9 +14,13 @@ The website contains of 7 pages total, including:
   * A paragraph describing the plot and its significance.
 * A ["Comparisons" page](#comparisons-page) that:
   * Contains all of the visualizations on the same page so we can easily visually compare them.
-  * Uses a bootstrap grid for the visualizations.
-    * The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
+  * Bootstrap grid for the visualizations.
 * A ["Data" page](#data-page) that:
   * Displays a responsive table containing the data used in the visualizations.
-    * The table must be a bootstrap table component.
-    * The data must come from exporting the `.csv` file as HTML, or converting it to HTML. 
+    * The table has a bootstrap table component.
+    
+## Folder Structure
+
+1) Css --> Contains the Css files, svg, images.
+2) Output City Data --> Has the City Source Data
+3) Plotted Figures --> It has all the visualizations.
