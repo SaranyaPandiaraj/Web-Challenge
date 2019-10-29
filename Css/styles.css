@@ -10,15 +10,29 @@ body {
 	font-size: 17px;
 }
 
+.desc1, .dropdown-item, .nav-item{
+	
+	font-weight: bolder;
+}
+
+
+
+
+.navbar-brand {
+	 text-shadow: 1px 1px 3px;
+}
+
 .desc, footer {
 	color:white;
 	font-weight: bolder;
 }
 .jumbotron {
-  padding: 2rem 1rem;
-  margin-bottom: 1rem;
+  padding: 1rem 1rem;
+  margin-bottom: 0.5rem;
   background-color: #073642;
   border-radius: 0.3rem;
+  
+
 }
 
 .navbar-brand{
@@ -56,11 +70,23 @@ body {
 .card-title {
 	text-align: center;
 	padding-top: 15px;
+	font-weight: bolder;
+	color:white
 }
 
 
 .hovereffect.card-img {
 	border: 2px 2px white;
+}
+
+.card-img , .img-fluid, .img-thumbnail {
+  border-radius: 10%;
+  box-shadow: 2px 2px 4px #000000;
+
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
 .hovereffect img {
@@ -159,7 +185,7 @@ footer.footer{
 }
 
 
-	svg {
+svg {
   width: 10px;
 }
 
