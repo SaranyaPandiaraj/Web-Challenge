@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">   
+	
+	<link rel="stylesheet" href="https://bootswatch.com/4/solar/bootstrap.css">
+	<link rel="stylesheet" href="https://bootswatch.com/_assets/css/custom.min.css">
+
+	<link rel="stylesheet" href="Css/Styles.css">
+	
+
+    <title>Web Visualization Dashboard (Latitude)</title>
+</head>
+	
+  <body>
+    <nav class="navbar fixed-top navbar-expand-md navbar-custom ">
+      <a class="navbar-brand" href="Home_Page.html">
+            <i class="fas fa-fw"><img src="cloud-sun-rain-solid.svg" alt="cloud-sun-rain-solid"> </i> &nbsp;Latitude
+	  </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active-nav" href="Home_Page.html"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="MaxTemperature.html">Max Temperature</a>
+              <a class="dropdown-item" href="Humidity.html">Humidity</a>
+              <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Comparison.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+	<marquee behavior="alternate">
+				
+		<img src="Css/Images/giphy.gif" width="40" height="40">
+		<b>&nbsp;&nbsp; "What's the weather like as we approach the equator?" &nbsp;&nbsp;</b>
+		<img src="Css/Images/giphy.gif" width="40" height="40">
+	</marquee>
+
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ">
+            <div class="card card-custom ">
+              <div class="card-body">
+                <h2 class="card-header "><i class="fas fa-chart-line fa-fw"></i>
+                Summary: Latitude Analysis</h2> <br/>
+                <p class="card-text"><img id="image" src="Plotted Figures/Latitude_vs_Longitude.png"  class="img-fluid" align="left" alt="Latitude vs Longitude">
+                  <p class="summary">The purpose of this project was to analyze how weather changes as you get closer to the equator.
+                  To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+                  <p class="summary"> After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: <p>
+                  <p class="summary">Temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-custom">
+              <div class="card-body">
+                <h2 class="card-header"><i class="far fa-images fa-fw"></i> Visualisations</h2><br/>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="hovereffect">
+                      <a href="maxtemperature.html"><img src="Plotted Figures/Latitude_vs_Temperature.png" class=" img-thumbnail" alt="Latitude vs Temperature"><p class="card-text" align="center" style="color:black"><small class="desc">Latitude vs. Temperature</small></p></a>
+                    </div>
+                  </div>
+                  
+                  <div class="col-sm-6">
+                    <div class="hovereffect">
+                      <a href="cloudiness.html"><img src="Plotted Figures/Latitude_vs_Cloudiness.png" class="img-thumbnail" alt="Latitude vs cloudiness"><p class="card-text" align="center" style="color:black" ><small class="desc">Latitude vs. Cloudiness</small></p></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="hovereffect">
+                      <a href="humidity.html"><img src="Plotted Figures/Latitude_vs_Humidity.png" class="img-thumbnail" alt="Latitude vs Humidity"><p class="card-text" align="center" style="color:black"><small class="desc">Latitude vs. Humidity</small></p></a>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="hovereffect">
+                      <a href="windspeed.html"><img src="Plotted Figures/Latitude_vs_WindSpeed.png" class=" img-thumbnail" alt="Latitude vs Wind Speed"><p class="card-text" align="center" style="color:black"><small class="desc">Latitude vs. Wind Speed</small></p></a> 
+                    </div>
+                  </div>
+                </div>	<br/>
+				<div class="summary">
+					Click any of the above visualizations to see the detailed view of the plots.  &nbsp;&nbsp;
+					<i class="fas fa-hand-point-up"></i> 
+				</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+		<p class="text text-center">
+          <small>© Sara Copyrights Data Analytics BootCamp 2019
+          </small>
+        </p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="https://bootswatch.com/_vendor/jquery/dist/jquery.min.js"></script>
+    <script src="https://bootswatch.com/_vendor/popper.js/dist/umd/popper.min.js"></script>
+    <script src="https://bootswatch.com/_vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://bootswatch.com/_assets/js/custom.js"></script>
+  </body>
+</html>
