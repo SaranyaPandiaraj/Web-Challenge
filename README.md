@@ -1,7 +1,11 @@
 # Web-Challenge
 ## Latitude Analysis Dashboard with Attitude
 
-## Live Link of the Website : <https://saranyapandiaraj.github.io/Web-Challenge/Home_Page.html>
+#### Live Link of the Website : <https://saranyapandiaraj.github.io/Web-Challenge/Home_Page.html>
+
+#### Note: Before Clicking the Live Link, Please clear the browser cache to affect the css style changes in the website.
+
+![HomePage](Media Queries Snapshots/Home_Page_Large.png)
 
 Web Visualization Dashboard (Latitude) site provides the source data and visualizations created as part of the WeatherPy - latitude analysis, as well as explanations and descriptions of any trends and correlations witnessed.
 
