@@ -22,5 +22,6 @@ The website contains of 7 pages total, including:
 ## Folder Structure
 
 1) Css --> Contains the Css files, svg, images.
-2) Output City Data --> Has the City Source Data
+2) Output City Data --> It Has the City Source Data
 3) Plotted Figures --> It has all the visualizations.
+4) Media Queries --> It has the Media Responsive snapshots.
