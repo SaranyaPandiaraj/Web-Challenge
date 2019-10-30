@@ -9,6 +9,16 @@
 
 Web Visualization Dashboard (Latitude) site provides the source data and visualizations created as part of the WeatherPy - latitude analysis, as well as explanations and descriptions of any trends and correlations witnessed.
 
+#### BootStap Link : 
+
+https://bootswatch.com/4/solar/bootstrap.css
+https://bootswatch.com/_assets/css/custom.min.css
+
+#### Glyphicons Link :
+
+https://use.fontawesome.com/releases/v5.3.1/css/all.css
+
+
 The website contains of 7 pages total, including:
 
 * A [landing page](#landing-page) containing:
